@@ -1,0 +1,48 @@
+.userCard {
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.userCard_name {
+    text-align: center;
+    margin: 0;
+}
+
+.userCard_list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.userCard_item{
+    line-height: 22px;
+}
+
+.userCard_item span {
+    color: gray;
+    display: block;
+}
+
+.userCard_footer {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+}
+
+.userCard_btn_delete {
+    width: 43px;
+    height: 43px;
+    background-color: #D93F3F;
+    border: 1px solid #D93F3F;
+    border-radius: 4px;
+}
+
+.userCard_btn_edit {
+    background-color: #F6F6F6;
+    width: 43px;
+    height: 43px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+}
